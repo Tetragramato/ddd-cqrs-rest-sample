@@ -1,5 +1,7 @@
-ddd-cqrs-rest-sample : WORK IN PROGRESS
-=======================================
+ddd-cqrs-rest-sample
+====================
+WORK IN PROGRESS
+====================
 
 This is juste an example of CQRS applied to DDD with Spring REST and Hateoas.
 Inspired by [https://github.com/BottegaIT/ddd-cqrs-sample](ddd-cqrs-sample) and work of Greg Young.
@@ -12,8 +14,8 @@ Lancement de l'application via Spring Boot (AppConfig)
 
 URL
 ---
-http://localhost:8080/adresses
-http://localhost:8080/adresses/{id}
+- http://localhost:8080/adresses
+- http://localhost:8080/adresses/{id}
 
 Méthodes autorisées
 -------------------
