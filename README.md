@@ -1,5 +1,5 @@
-ddd-cqrs-rest-sample
-====================
+ddd-cqrs-rest-sample : WORK IN PROGRESS
+=======================================
 
 This is juste an example of CQRS applied to DDD with Spring REST and Hateoas.
 Inspired by [https://github.com/BottegaIT/ddd-cqrs-sample](ddd-cqrs-sample) and work of Greg Young.
@@ -35,5 +35,3 @@ les commandes peuvent être :
 - AdresseUpdateAllCommand
 - AdresseUpdateLigneCommand
 
-WORK IN PROGRESS
-----------------
