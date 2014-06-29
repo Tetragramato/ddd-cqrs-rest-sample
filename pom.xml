@@ -7,6 +7,7 @@
     <groupId>com.viviboss</groupId>
     <artifactId>ddd-cqrs-rest-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>ddd-cqrs-rest-sample</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

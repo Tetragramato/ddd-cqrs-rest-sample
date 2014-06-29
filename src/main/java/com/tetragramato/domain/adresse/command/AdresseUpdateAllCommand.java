@@ -1,6 +1,7 @@
 package com.tetragramato.domain.adresse.command;
 
 import com.tetragramato.cqrs.core.Command;
+import org.apache.log4j.Logger;
 
 import java.util.UUID;
 
@@ -13,7 +14,10 @@ public class AdresseUpdateAllCommand implements Command {
     private final String codePostal;
     private final String Ville;
 
+    static Logger log = Logger.getLogger(AdresseUpdateAllCommand.class);
+
     public AdresseUpdateAllCommand(UUID id, String ligneAdresse, String codePostal, String ville) {
+        log.info("[AdresseUpdateAllCommand] création de la commande.");
         this.id = id;
         this.ligneAdresse = ligneAdresse;
         this.codePostal = codePostal;

@@ -14,7 +14,7 @@ public class AdresseQueryController {
 
     @RequestMapping(value = "{id}", method = RequestMethod.GET)
     @ResponseBody
-    public Adresse getAdresseById(@RequestParam UUID id) {
+    public Adresse getAdresseById(@PathVariable UUID id) {
         Adresse adresse = new Adresse();
         adresse.setId(id);
         return adresse;
